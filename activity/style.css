@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-weight:bolder;
+}
+h1{
+    color: #faf9f9;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 67px;
+    font-weight: normal;
+}
+body{
+    background: #add2c9;
+}
+
+.input-container{
+    padding: 2rem;
+    height: 20vh;
+   
+}
+
+.todo-input{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 70%;
+    width: 60%;
+    text-align: center;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+
+
+.todos-container{
+    height: 80vh;
+}
+
+.todos-list{
+    padding-top: 2rem;
+}
+.todo-item{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 4rem;
+    width: 70%;
+    background:#488b8f;
+    border-radius: 50px;
+    padding: 0.5rem;
+}
+.todo{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 60px;
+}
+.delete-task{
+    display: flex;
+    float: right;
+    margin-right: 40px;
+    margin-top: 4px;
+   border:none;
+border-radius:20px;
+
+   
+   
+    
+}
+.far{
+    color:#faf9f9;
+    background-color:#add2c9;
+    font-size: 40px;
+}
+
+.add-todo{
+        height: 75%;
+        width: 18%;
+        display: block;
+      background:#faf9f9;
+      position: relative;
+      background:#faf9f9;
+      margin-bottom: 25px;
+      border-radius: 50px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+        box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+          6px 6px 10px rgba(0, 0, 0, 0.2);
+        color: #488b8f;
+        margin: auto;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    }
+    span{
+        /* line-height:100px; */
+        
+        font-size:20px;
+        font-weight:semibold;
+      } 
+      
+      .add-todo:hover {
+          opacity: 0.5;
+          box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+            6px 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .add-todo:active {
+          opacity: 1;
+          box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+            inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+          color: #add2c9;
+        }
+      
+     
